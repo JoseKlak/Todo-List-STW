@@ -1,6 +1,7 @@
 <template>
     <div id="app">
        <ul class="nav">
+        <!-- <li><img src="https://www.stwautomacao.com.br/wp-content/themes/stwautomacao/images/cabecalho.png" class="logostw"></li> -->
         <li><router-link :to="{ name: 'home' }">Home</router-link></li>
         <li><router-link :to="{ name: 'todo' }">App</router-link></li>
         <li><router-link :to="{ name: 'about' }">About</router-link></li>
